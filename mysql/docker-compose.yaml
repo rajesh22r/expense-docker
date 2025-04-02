@@ -16,6 +16,7 @@ services:
     depends_on:
     - mysql
   frontend:
+    image: rajesh2219/frontend:v1
     container_name: frontend
     ports:
     - 80:80
